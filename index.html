@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Top Page</title>
+    <meta name="author" content="Sam Norton">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Windows favicon -->
+    <link rel="icon" href="./images/favicons/favicon.ico">
+
+    <!-- Safari favicon -->
+    <!-- <link rel="mask-icon" href="./images/favicon/safari-icon.svg" color="#555″> -->
+
+    <!-- ios favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href=".apple-touch-icon-180x180.png">
+
+    <!-- Android favicon -->
+    <link rel="icon" type="image/png" sizes="192×192" href="./image/favicon/android-chrome-192×192.png">
+    <link rel="manifest" href="./image/favicon/manifest.json">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ 
+    <!-- エオルゼア時間表示ウィジェット -->
+    <link rel="stylesheet" href="css/normalize.css" media="all">
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <link rel="stylesheet" href="css/bootstrap.min" media="all">
+    <link rel="stylesheet" type="text/css" href="css/eorzeaclock.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,700,600,800,900' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- jquery Bootstrap3 -->
+    <script src="js/device.min.js"></script> <!--OPTIONAL JQUERY PLUGIN-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/eorzeaclock.js" charset="UTF-8"></script>
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet"> 
+
+    <!-- Google SEO -->
+    <meta name="google-site-verification" content="OBMNqJyjoTwxZiRsXI7PqJYDNDbZo5_ewLRknXGO4p8" />
+    
+    <!-- <script type="text/javascript">
+        //     window.onload = function () { // ページ読み込み時に実行する無名関数
+        //     updateRead(); // １つ目の関数呼び出し
+        //     logRead(); // ２つ目の関数呼び出し
+        // }
+
+        // function updateRead(){
+        //     var xmlhttps;
+        
+        //     xmlhttps = new XMLhttpsRequest();
+        //     xmlhttps.open("GET", "./update/write.txt", false);
+        //     xmlhttps.send(null);
+        //     var text = xmlhttps.responseText;
+        //     var node = document.getElementById("update");
+        //     node.innerText = text;
+        // }
+        // function logRead(){
+        //     var xmlhttps;
+            
+        //     xmlhttps = new XMLhttpsRequest();
+        //     xmlhttps.open("GET", "./text/log.txt", false);
+        //     xmlhttps.send(null);
+        //     var text = xmlhttps.responseText;
+        //     var node = document.getElementById("log");
+        //     node.innerText = text;
+        // }
+    
+        var myPlayer;
+        jQuery(function () {
+            myPlayer = jQuery("#youtube").YTPlayer({});
+
+    </script> -->
+    <div class="visible-lg-block">
+        <script type="text/javascript">
+            $('#youtube').YTPlayer();
+            
+            $('.youtube_valume').on('click', function() {
+                $('#youtube').YTPToggleVolume();
+                $(this).toggleClass('active');
+            });
+            </script>
+        </div>
+</head>
+<body>
+ <section class="big-background">
+    <div class="visible-lg-block">
+        <a id="youtube" class="player"  Class="visible-lg-inline" data-property="{
+            videoURL:'https://youtu.be/-CFMdUQdFQQ',
+            containment: '#youtube-wrap',
+            loop:1,
+            containment:'body',
+            autoPlay:true, 
+            mute:true, 
+            startAt:53,
+            opacity:1,
+            showControls: false,
+            showYTLogo: false,
+            onReady: function( player ) {
+                $('.loading').hide('slow');
+            }
+            }">
+        </a>
+    </div>      
+        <div class="pattern">
+            <div class="background ">
+                <div class="big-background-container">
+                    <div class="visible-lg-block">
+                        <div class="loading">
+                            <h1>Now Loading...</h1>
+                        </div>
+                    </div>
+                    <h1 class="title">ようこそ、北洋地域へ
+                        <div class="NATO">
+                            <hr Class="hr">
+                        </div>
+                    </h1>
+                </div>            
+            </div>
+        </div>
+            <nav class="navbar navbar-default"> 
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                                <img src="./images/New_image/Top_Logo.png" Class="logo_image"></a>
+                        </div>
+                    
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Top</a></li>
+                            <li><a href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+                                ローデシア・北洋連合国
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation" class="dropdown-header">ローデシア自治区</li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation"><a href="#">ローデムル地区</a></li>
+                                <li role="presentation"><a href="#">ハイランド地区</a></li>
+                                <li role="presentation"><a href="#">ハートフィールド地区</a></li>
+                                <li role="presentation"><a href="#">島しょ部連合</a></li>
+                                <li role="presentation" class="dropdown-header">北洋連合国</li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation"><a href="#">ブルネイ</a></li>
+                                <li role="presentation"><a href="#">絵ヶ丘</a></li>
+                                <li role="presentation"><a href="#">サマルカンド地区</a></li>
+                                <li role="presentation"><a href="#">ウルダス共和国</a></li>
+                                <li role="presentation"><a href="#">北原地区</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#">国家・都市関連</a></li>
+                            <li><a href="#">ドキュメント(TC関連)</a></li>                            
+                            <li><a href="#">About us</a></li>
+                            <li class="visible-lg-inline"><a href="#" class="mute_button" style="padding: 5%;"><button class="btn btn-default" style="vertical-align: middle" onclick="jQuery('#youtube').YTPToggleVolume()">ミュート切り替え</button></a></li>
+                            <!-- <li><button style="vertical-align: middle" onclick="jQuery('#youtube').YTPUnmute()">ミュート解除</button></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>                           
+    </section>
+  
+    <div class="wrapper">
+
+    
+    <section class="about-section">
+        <div class="container">        
+            <div class="row">
+                <div class="row row-height">
+                    <div class="col-xs-12 col-sm-12 col-md-12" id="col_inner">
+                            <h2 class="about-section-title" style="text-align: center;">北洋条約機構とは？</h2>
+                                    <hr />
+                        <div id="about_cal">
+                            <p> 北洋地域とは、春戸から北へ真っすぐ進んだ、その先にある海洋地域です、付近には多くの都市が存在し
+                                たくさんの、バイオームがある地域です
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="panel panel-default">
+                            <div 14 class="panel-heading">
+                                <h4 style="text-align:center;">お知らせ</h4>
+                            </div>
+
+                            <div class="panel-body">
+                            <p>ホームページを作成しました</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="about-section-container">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">    
+                                        <h4>Discord</h4>
+                                </div>
+                                    <div class="panel-body">
+                                        <div class="menu-inner">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="about-section-container">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">    
+                                        <h4>Discord</h4>
+                                </div>
+                                    <div class="panel-body">
+                                        <div class="menu-inner">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                            </div>    
+                        </div>
+                    </div>
+                                        
+                </div>
+            </div>
+        </section>
+            
+
+    <section class="small-background-section">
+        <div class="pattern"></div>
+            <div class="small-background-container">
+                <h2 class="small-background-title"><span><u>The Social Account</u></span></h2>
+                <ul class="socials">
+
+                    <li id="footer"><a href="https://twitter.com/zomasa" target="_blank"><i id="footer" class="fa fa-twitter-square fa-5x"></i>
+                    <br>The Rhodesia Prime Minister Twitter Account</a></li>
+
+                    <div class="col-xs-12 col-sm-12 col-md-12" id="footer">                            
+                            <p class="visible-md-block visible-sm-block visible-xs-block">
+                                The "Project Last Stories" is the Novel of Crystal Alliance cir.
+                                <br />
+                                <br />
+                                Powered by EximRADAR | (C) EXR-Network 2012 - 2021<br />
+                            </p>
+
+                            <p class="visible-lg-block">
+                                The "Project Last Stories" is the Novel of Crystal Alliance cir. / Powered by EximRADAR | (C) EXR-Network 2012 - 2021<br />
+                            </p>
+
+                        <!--
+                            The Meg is the Brand of Crystal Alliance cir.
+                            Copyright © The Crystal Alliance cir. All Rights Reserved.
+
+                            The Final Fantasy is the game of SQUARE ENIX CO., LTD.
+                            Copyright (C) SQUARE ENIX CO., LTD. All Rights Reserved.
+                        -->
+                    </div>
+                </ul>
+            </div>
+    </section>
+</div>    
+</body>
+</html>
